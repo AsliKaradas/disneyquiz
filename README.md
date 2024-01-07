@@ -4,7 +4,7 @@ Disney quiz is a fully responsive demonstration of javascript application in a w
 
 View the live website [here][https://github.com/AsliKaradas/disneyquiz] 
 
-<img src="assets/readme_images/sitemockup.PNG" alt="image of multiple devise mock ups of the website">
+<img src="assets/readme-images/sitemockup.PNG" alt="image of multiple devise mock ups of the website">
 
 ## Features
 
@@ -15,7 +15,7 @@ View the live website [here][https://github.com/AsliKaradas/disneyquiz]
     * This gives the user a natural feeling starting point to set off from. The logo matched the favicon so already there is synchronicity and recognition in the design.
 
 
-<img src="assets/readme_images/sitewelcome.PNG" alt="image of site logo and welcome message">
+<img src="assets/readme-images/sitewelcome.PNG" alt="image of site logo and welcome message">
 
 * Play button and How-to-Play
     * Below the welcome is the invitation to play, followed by a "Play" button which starts the game. 
@@ -24,7 +24,7 @@ View the live website [here][https://github.com/AsliKaradas/disneyquiz]
     it is simple and effective. When they are ready th ebutton takes them to the game page.
     * The instructions below let the player know how to play the game and what to expect as they play through. 
 
-<img src="assets/readme_images/readytoplay.PNG" alt="image of the play invitation, play button and the instructions for playing">
+<img src="assets/readme-images/readytoplay.PNG" alt="image of the play invitation, play button and the instructions for playing">
 
 ### Quiz page
 
@@ -32,15 +32,15 @@ View the live website [here][https://github.com/AsliKaradas/disneyquiz]
     * The games page has first and foremost a Heads Up Display the top of the screen. Followed by the current quiz question.
     * The Hud serves to display relevant information to the player. The number on the left indicates which question out of 10 they are currently playing and the number on the right is their current score. This is omportant information for the player to have so they are aware of their progress and even to aim for higher scores on replay. 
 
-<img src="assets/readme_images/hudandq.PNG" alt="image of heads up display and the current question">
+<img src="assets/readme-images/hudandq.PNG" alt="image of heads up display and the current question">
 
 * Option Buttons
     * The player is presented with the three options to answer the question with. Only one is correct. Their accuracy is indicated by the chosen option turning either green or red as stated in the "How To Play" section of the home page.
     * The color change indication works well as a visual cue to the player. Red being widely accepted as indicating "bad", "stop" or "wrong", while green is normally accepted as meaning "Good", "Go", "Okay". Due to this all player should be able to instantly identify with and understand whichever color they are presented with as they play through.
 
-<img src="assets/readme_images/correct.PNG" alt="image of the indication of a correct answer">
+<img src="assets/readme-images/correct.PNG" alt="image of the indication of a correct answer">
 
-<img src="assets/readme_images/incorrect.PNG" alt="image of the indication of an incorrect answer">
+<img src="assets/readme-images/incorrect.PNG" alt="image of the indication of an incorrect answer">
 
 ### End page
 
@@ -48,13 +48,13 @@ View the live website [here][https://github.com/AsliKaradas/disneyquiz]
     * Upon finishing the quiz the player is told they've reached the end and are presented with their final score.
     * The user gets to see how they did, indicated numerically as their final score
 
-<img src="assets/readme_images/finish.PNG" alt="image of quiz end message and score display">
+<img src="assets/readme-images/finish.PNG" alt="image of quiz end message and score display">
 
 * Replay or Go Home buttons
     * Below their final score the player is prompted to either replay or to leave and go to the home page.
     * This end page gives the player the option of a natural end the quiz or to play again for a better score. 
 
-<img src="assets/readme_images/replayorhome.PNG" alt="image of the replay or go home buttons">
+<img src="assets/readme-images/replayorhome.PNG" alt="image of the replay or go home buttons">
 
 ## Testing
 
