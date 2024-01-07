@@ -2,7 +2,7 @@
 
 body {
     background-color: pink;
-    background-image: url(../images/start.png);
+    background-image: url(assets/images/start.png);
     background-position: bottom;
     background-repeat: no-repeat;
     margin: 0%;

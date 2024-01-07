@@ -11,70 +11,70 @@ let scoreDisplay = document.getElementById("score-display");
 let questions = [
     { 
         question: "Which Disney character has seven dwarfs as friends ?",
-        imgSrc: "assets/images/snowwhite.jpg",
+        imgSrc: "assets/Images/snowwhite.jpg",
         optionA: "The Evil Queen",
         optionB: "Snow White",
         optionC: "The Hunter",
         correct: "B"
     }, {
         question: "Which Disney character has a flying carpet ?",
-        imgSrc: "assets/images/aladdin.jpg",
+        imgSrc: "assets/Images/aladdin.jpg",
         optionA: "Genie",
         optionB: "Aladdin",
         optionC: "Princess Jasmine",
         correct: "B"
     }, {
         question: "What Disney song does Elsa sing in Frozen ?",
-        imgSrc: "assets/images/frozen.jpg",
+        imgSrc: "assets/Images/frozen.jpg",
         optionA: "Let It Go",
         optionB: "Do You Want to Build a Snowman?",
         optionC: "For the First Time in Forever",
         correct: "A"
     }, {
         question: "Which Disney character is a young lion and the son of Mufasa ?",
-        imgSrc: "assets/images/simba.jpg",
+        imgSrc: "assets/Images/simba.jpg",
         optionA: "Scar",
         optionB: "Nala",
         optionC: "Simba",
         correct: "C"
     }, {
         question: "Which Disney character is a little mermaid ?",
-        imgSrc: "assets/images/ariel.jpg",
+        imgSrc: "assets/Images/ariel.jpg",
         optionA: "Ariel",
         optionB: "Ursula",
         optionC: "Scuttle",
         correct: "A"
     }, {
         question: "Who is the owner of Pluto in Disney stories ?",
-        imgSrc: "assets/images/mickeymouse.jpg",
+        imgSrc: "assets/Images/mickeymouse.jpg",
         optionA: "Max Goof ",
         optionB: "Pete",
         optionC: "Mickey Mouse",
         correct: "C"
     }, {
         question: "Which Disney character wears a red cape and chases after a basket full of goodies ? ",
-        imgSrc: "assets/images/littleredridinghood.jpg",
+        imgSrc: "assets/Images/littleredridinghood.jpg",
         optionA: "The Wolf",
         optionB: "Little Red Riding Hood",
         optionC: "Grandmother",
         correct: "B"
     }, {
         question: "Which Disney character is the main character in The Jungle Book ?",
-        imgSrc: "assets/images/mogli.jpg",
+        imgSrc: "assets/Images/mogli.jpg",
         optionA: "Mowgli",
         optionB: "Bagheera",
         optionC: "Baloo",
         correct: "A"
     }, {
         question: "Which Disney character has a Blue Fairy as a mentor?",
-        imgSrc: "assets/images/pinocchio.jpg",
+        imgSrc: "assets/Images/pinocchio.jpg",
         optionA: "Stromboli",
         optionB: "Geppetto",
         optionC: "Pinocchio.",
         correct: "C"
     }, {
         question: "Which Disney character is a rabbit and has a friend named Thumper? ",
-        imgSrc: "assets/images/bambi.jpg",
+        imgSrc: "assets/Images/bambi.jpg",
         optionA: "Flower",
         optionB: "Bambi",
         optionC: "Faline",
