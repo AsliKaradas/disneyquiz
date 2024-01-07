@@ -1,39 +1,98 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Disney Quiz
 
-Welcome,
+Disney quiz is a fully responsive demonstration of javascript application in a web based quiz, designed to test the player's knowledge of video game pop culture. It is aimed at members of the gaming demographic that hold knowledge of both modern and older gaming refrences.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+View the live website [here][https://github.com/AsliKaradas/disneyquiz] 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+<img src="assets/readme_images/sitemockup.PNG" alt="image of multiple devise mock ups of the website">
 
-## Codeanywhere Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Welcome page
 
-`python3 -m http.server`
+* Logo and Welcome
+    * The site opens up to the welcome page, presenting the viewer with the quiz's logo and a warm welcome.
+    * This gives the user a natural feeling starting point to set off from. The logo matched the favicon so already there is synchronicity and recognition in the design.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+<img src="assets/readme_images/sitewelcome.PNG" alt="image of site logo and welcome message">
 
-`http_server`
+* Play button and How-to-Play
+    * Below the welcome is the invitation to play, followed by a "Play" button which starts the game. 
+    Below which are instructions on how to play.
+    * The invitation to play makes sense in the flow of gameplay, the player must hit the play button when they are ready to play,
+    it is simple and effective. When they are ready th ebutton takes them to the game page.
+    * The instructions below let the player know how to play the game and what to expect as they play through. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<img src="assets/readme_images/readytoplay.PNG" alt="image of the play invitation, play button and the instructions for playing">
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Quiz page
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* HUD and Question display
+    * The games page has first and foremost a Heads Up Display the top of the screen. Followed by the current quiz question.
+    * The Hud serves to display relevant information to the player. The number on the left indicates which question out of 10 they are currently playing and the number on the right is their current score. This is omportant information for the player to have so they are aware of their progress and even to aim for higher scores on replay. 
 
-To log into the Heroku toolbelt CLI:
+<img src="assets/readme_images/hudandq.PNG" alt="image of heads up display and the current question">
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Option Buttons
+    * The player is presented with the three options to answer the question with. Only one is correct. Their accuracy is indicated by the chosen option turning either green or red as stated in the "How To Play" section of the home page.
+    * The color change indication works well as a visual cue to the player. Red being widely accepted as indicating "bad", "stop" or "wrong", while green is normally accepted as meaning "Good", "Go", "Okay". Due to this all player should be able to instantly identify with and understand whichever color they are presented with as they play through.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<img src="assets/readme_images/correct.PNG" alt="image of the indication of a correct answer">
 
----
+<img src="assets/readme_images/incorrect.PNG" alt="image of the indication of an incorrect answer">
 
-Happy coding!
+### End page
+
+* Final Score
+    * Upon finishing the quiz the player is told they've reached the end and are presented with their final score.
+    * The user gets to see how they did, indicated numerically as their final score
+
+<img src="assets/readme_images/finish.PNG" alt="image of quiz end message and score display">
+
+* Replay or Go Home buttons
+    * Below their final score the player is prompted to either replay or to leave and go to the home page.
+    * This end page gives the player the option of a natural end the quiz or to play again for a better score. 
+
+<img src="assets/readme_images/replayorhome.PNG" alt="image of the replay or go home buttons">
+
+## Testing
+
+* The site was tested repeatedly as it was developed. I used the google chrome developer tools console heavily through out to log values as I worked through the site and view any error codes that came up as the site was being developed.
+
+* I have tested the webpage on a number of different mobile devices available on the google chrome developer tools to make sure they where responsive.
+    * iPhone 13 Pro
+    * iPhone 12 Pro
+    * Pixel 5
+    * iPhone 8 Plus
+    * MacBook Pro 13"
+    * Samsung Galaxy S20 Ultra
+    * iPad Air
+    * iPad Mini
+    * Surface Pro 7
+    * Samsung Galaxy A51/71
+
+## Validator Testing
+* HTML
+    * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+* CSS
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+* JavaScript
+    * No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+    * The following metrics were returned:
+        * There are 5 functions in this file.
+        * Function with the largest signature take 0 arguments, while the median is 0.
+        * Largest function has 12 statements in it, while the median is 6.
+        * The most complex function has a cyclomatic complexity value of 3 while the median is 1.
+
+## Deployment
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the GitHub repository, navigate to the Settings tab
+    * From the source section drop-down menu, select the Master Branch
+    * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - [https://aslikaradas.github.io/disneyquiz/](https://aslikaradas.github.io/disneyquiz/)
+
+## Credits
+
+* Questions for the quiz sourced from [mantelligence](https://www.mantelligence.com/video-game-trivia/)
+* Learned to used the setTimeout for timing execution of some of my functions on [w3schools](https://www.w3schools.com/js/js_timing.asp)
