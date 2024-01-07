@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 
 body {
+    font-family: 'Mouse Memoirs', sans-serif;
     background-color: pink;
     background-image: url(../images/start.png);
     background-position: bottom;
