@@ -1,8 +1,11 @@
 # Disney Quiz
 
-Disney quiz is a fully responsive demonstration of javascript application in a web based quiz, designed to test the player's knowledge of video game pop culture. It is aimed at members of the gaming demographic that hold knowledge of both modern and older gaming refrences.
+A Disney quiz designed to test players' knowledge of Disney movies and characters. The quiz will have a user-friendly interface with a Disney-themed design, incorporating iconic Disney characters, logos, or imagery to create an engaging atmosphere for the players. The quiz will cover various aspects of Disney, including:
+        Characters: Identifying characters based on descriptions or images.
+        Movies: Questions about plots, songs, or memorable scenes from Disney movies.
+The quiz could consist of multiple-choice questions.
 
-View the live website [here][https://github.com/AsliKaradas/disneyquiz] 
+View the live website [here][https://aslikaradas.github.io/disneyquiz/]
 
 <img src="assets/readme-images/sitemockup.png" alt="image of multiple devise mock ups of the website">
 
@@ -12,31 +15,29 @@ View the live website [here][https://github.com/AsliKaradas/disneyquiz]
 
 * Logo and Welcome
     * The site opens up to the welcome page, presenting the viewer with the quiz's logo and a warm welcome.
-    * This gives the user a natural feeling starting point to set off from. The logo matched the favicon so already there is synchronicity and recognition in the design.
+    * This gives the user a natural feeling starting point to set off from.
 
 
 <img src="assets/readme-images/sitewelcome.png" alt="image of site logo and welcome message">
 
 * Play button and How-to-Play
-    * Below the welcome is the invitation to play, followed by a "Play" button which starts the game. 
-    Below which are instructions on how to play.
-    * The invitation to play makes sense in the flow of gameplay, the player must hit the play button when they are ready to play,
-    it is simple and effective. When they are ready th ebutton takes them to the game page.
-    * The instructions below let the player know how to play the game and what to expect as they play through. 
+    * Under the welcoming message lies an enticement to engage, accompanied by a prominent "Play" button that initiates the gameplay. Beneath this button, concise guidelines await, offering instructions on how to participate.
+    * The play invitation seamlessly integrates into the gaming experience, requiring players to click the "Play" button at their convenience. This straightforward approach serves as an effective gateway, leading them to the game page when they're prepared to begin.
+    * The instructions provided below offer guidance on gameplay mechanics and outline what players can anticipate as they progress through the game. 
 
 <img src="assets/readme-images/readytoplay.png" alt="image of the play invitation, play button and the instructions for playing">
 
 ### Quiz page
 
 * HUD and Question display
-    * The games page has first and foremost a Heads Up Display the top of the screen. Followed by the current quiz question.
-    * The Hud serves to display relevant information to the player. The number on the left indicates which question out of 10 they are currently playing and the number on the right is their current score. This is omportant information for the player to have so they are aware of their progress and even to aim for higher scores on replay. 
+    * At the top section of the games page, prominently displayed, is a Heads Up Display (HUD). Directly below, players encounter the current quiz question as the focal point of the screen.
+    * The HUD serves as a vital information panel for players, presenting key details. The number on the left denotes the current question among the 10 in the quiz, while the number on the right showcases their ongoing score. This information is crucial for players to track their progress and strive for improved scores upon replaying the quiz. 
 
 <img src="assets/readme-images/hudandq.png" alt="image of heads up display and the current question">
 
 * Option Buttons
-    * The player is presented with the three options to answer the question with. Only one is correct. Their accuracy is indicated by the chosen option turning either green or red as stated in the "How To Play" section of the home page.
-    * The color change indication works well as a visual cue to the player. Red being widely accepted as indicating "bad", "stop" or "wrong", while green is normally accepted as meaning "Good", "Go", "Okay". Due to this all player should be able to instantly identify with and understand whichever color they are presented with as they play through.
+    * Players are provided with three answer options for each question, with only one being the correct answer. Upon selection, the accuracy of their choice is indicated by the option turning either green or red, aligning with the instructions highlighted in the "How To Play" section on the home page.
+    * The visual cue of color change effectively communicates to players. Red commonly signifies "wrong" or "stop," while green universally represents "good" or "go." This intuitive color scheme ensures that all players can easily identify and understand the significance of the color they encounter during gameplay.
 
 <img src="assets/readme-images/correct.png" alt="image of the indication of a correct answer">
 
@@ -45,8 +46,8 @@ View the live website [here][https://github.com/AsliKaradas/disneyquiz]
 ### End page
 
 * Final Score
-    * Upon finishing the quiz the player is told they've reached the end and are presented with their final score.
-    * The user gets to see how they did, indicated numerically as their final score
+    * As the quiz concludes, players receive a notification indicating that they've reached the end, followed by the presentation of their final score.
+    * Upon completion, users are provided with a numerical representation of their performance, displayed as their final score.
 
 <img src="assets/readme-images/finish.png" alt="image of quiz end message and score display">
 
